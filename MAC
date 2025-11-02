@@ -1,0 +1,19 @@
+AWS CLI Installation on macOS
+-----------------------------
+
+Step 1: Download the AWS CLI Installer
+• Run the command below in Terminal:
+  curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+
+Step 2: Install the Package
+• Use the installer command:
+  sudo installer -pkg AWSCLIV2.pkg -target /
+  (This installs the AWS CLI globally.)
+
+Step 3: Verify the Installation
+• Run:
+  aws --version
+
+Expected output (version may vary):
+  aws-cli/2.x.x Python/3.x.x Darwin/x86_64 source
+
